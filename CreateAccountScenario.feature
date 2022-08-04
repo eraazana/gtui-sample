@@ -1,8 +1,9 @@
 @CreateAccountScenario
 
-Feature: Creating an Account
+Feature: Create a Personal Account
 
-    Scenario: Creating an Account
-        Given Log in as a Producer Role
-        When Create an Account
-        # Then Successfully create Scenario
+    Scenario: Creating a Personal Account
+        Given Log in as a user with a Producer Role
+        When Creating a Personal Account
+        Then Successfully create Scenario #User should successfully create a new Personal Account
+        
